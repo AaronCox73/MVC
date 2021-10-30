@@ -10,6 +10,13 @@
     color: #333;
   }
   
+  nav a {
+    text-decoration: none;
+    color: rgb(133, 158, 129);
+    font-weight: bold;
+    transition: color .1s;
+  }
+
   a {
     text-decoration: none;
     color: rgb(37, 24, 24);
@@ -181,4 +188,5 @@
     justify-content: center;
     padding: 1%;
     font-size: 110%;
+    background-color: rgb(37, 24, 24);
   }
