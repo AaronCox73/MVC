@@ -16,9 +16,10 @@
       </h1>
       <nav>
         {{#if loggedIn}}
+        <a href="/">Home</a>
         <a href="/dashboard">dashboard</a>
         <button id="logout" class="btn-no-style">logout</button>
-        <a href="/">HOME</a>
+
         {{else}}
         <a href="/login">login</a>
         {{/if}}

@@ -45,6 +45,7 @@
     padding: .5%;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: burlywood;
   }
   
   textarea:focus, input:focus {
@@ -80,6 +81,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
+    background-color: rgb(37, 24, 24);
   }
   
   header h1 {
